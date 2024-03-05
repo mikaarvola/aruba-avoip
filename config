@@ -1,0 +1,20 @@
+hostname "av-switch"
+module 1 type j1256a
+igmp filter-unknown-mcast
+igmp faslearn 1-52
+igmp lookup-mode ip
+jumpbo ip-mtu 8982
+jumbo max-frame-size 9000
+ip directed-broadcast
+snmp server community "public" unrestricted
+vlan 3000
+  name "AV-over-IP"
+  untagged 1-52
+  ip address 192.168.0.1 255.255.255.0
+  ip igmp
+  ip igmp version 3
+  ipv6 enable
+  ipv6 address dhcp full
+  jumbo
+  exit
+password manager
