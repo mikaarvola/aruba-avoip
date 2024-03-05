@@ -1,5 +1,4 @@
-# aruba-avoip
-minimal AV-over-IP configuration for HPE Aruba Networking 2930F Switch Series
+# Minimal AV-over-IP configuration for HPE Aruba Networking 2930F Switch Series
 
 Tested with [Crestron DM-NVX-360](https://www.crestron.com/Products/Video/DigitalMedia-Streaming-Solutions/Hardware-Encoders-Decoders/DM-NVX-360) and [Kramer KDS-7](https://www.kramerav.com/feat-products/kds-7/) series.
 
