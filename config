@@ -1,9 +1,8 @@
 hostname "av-switch"
-module 1 type j1256a
 igmp filter-unknown-mcast
-igmp faslearn 1-52
+igmp fastlearn 1-52
 igmp lookup-mode ip
-jumpbo ip-mtu 8982
+jumbo ip-mtu 8982
 jumbo max-frame-size 9000
 ip directed-broadcast
 snmp server community "public" unrestricted
